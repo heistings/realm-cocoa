@@ -6,6 +6,7 @@ x.y.z Release notes (yyyy-MM-dd)
 ### Fixed
 * Fix a memory leak whenever Realm makes a HTTP(s) request to the Realm Object
   Server (since 3.8.0, Issue [#6058](https://github.com/realm/realm-cocoa/issues/6058)).
+* Fix some new warnings when building with Xcode 10.2 beta.
 
 ### Compatibility
 * File format: Generates Realms with format v9 (Reads and upgrades all previous formats)
