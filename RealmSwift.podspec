@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.dependency 'Realm', "= #{s.version}"
   s.source_files = 'RealmSwift/*.swift'
 
-  s.prepare_command           = 'sh build.sh cocoapods-setup swift'
+  # s.prepare_command           = 'sh build.sh cocoapods-setup swift'
   s.preserve_paths            = %w(build.sh)
 
   s.pod_target_xcconfig = { 'APPLICATION_EXTENSION_API_ONLY' => 'YES' }
